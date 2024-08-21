@@ -38,11 +38,11 @@
 
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope ">
     <!-- header section  -->
-    <header class="container mx-auto">
+    <header class="container mx-auto bg-white">
         <!-- nav section  -->
-        <nav class="mt-5">
+        <nav class="pt-5">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
 
@@ -54,18 +54,19 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="space-x-6 menu-horizontal px-1 text-xl text-textlight hover:text-textdark">
-                        <li ><a class="hover:text-textdark hover:font-bold cursor-pointer">Home</a></li>
-                        <li><a  class="hover:text-textdark hover:font-bold cursor-pointer">Services</a></li>
-                        <li><a  class="hover:text-textdark hover:font-bold cursor-pointer">Portfolio</a></li>
-                        <li><a  class="hover:text-textdark hover:font-bold cursor-pointer">Blogs</a></li>
-                        <li><a  class="hover:text-textdark hover:font-bold cursor-pointer">Contact Us</a></li>
+                        <li><a class="hover:text-textdark hover:font-bold cursor-pointer">Home</a></li>
+                        <li><a class="hover:text-textdark hover:font-bold cursor-pointer">Services</a></li>
+                        <li><a class="hover:text-textdark hover:font-bold cursor-pointer">Portfolio</a></li>
+                        <li><a class="hover:text-textdark hover:font-bold cursor-pointer">Blogs</a></li>
+                        <li><a class="hover:text-textdark hover:font-bold cursor-pointer">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end space-x-5 hidden lg:flex">
                     <i class="btn fa-search fa-solid border pt-4 rounded-full bg-white"></i>
                     <i class="btn fa-cart-shopping fa-solid border pt-4 rounded-full bg-white"></i>
-                    <button class="btn text-xl font-bold bg-accent rounded-full">Book Consult <i class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-black text-white px-2 py-1 rounded-full"
-                        style="--fa-rotate-angle: -45deg;"></i></button>
+                    <button class="btn text-xl font-bold bg-accent rounded-full">Book Consult <i
+                            class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-black text-white px-2 py-1 rounded-full"
+                            style="--fa-rotate-angle: -45deg;"></i></button>
                 </div>
                 <div class="navbar-end lg:hidden">
                     <div class="dropdown border rounded-full">
@@ -85,29 +86,74 @@
                             <li><a>Contact Us</a></li>
                             <i class="btn fa-search fa-solid border pt-4 rounded-full bg-white"></i>
                             <i class="btn fa-cart-shopping fa-solid border pt-4 rounded-full bg-white"></i>
-                            <button class="btn text-xl font-bold bg-accent rounded-full flex flex-col">Book Consult <i class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-black text-white px-2 py-1 rounded-full"
-                                style="--fa-rotate-angle: -45deg;"></i></button>
+                            <button class="btn text-xl font-bold bg-accent rounded-full flex flex-col">Book Consult <i
+                                    class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-black text-white px-2 py-1 rounded-full"
+                                    style="--fa-rotate-angle: -45deg;"></i></button>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- banner section  -->
-         <div class="px-5">
+        <div class="px-5 pb-20">
             <!-- top part  -->
-             <div class="flex justify-center mb-6 mt-14">
+            <div class="flex justify-center mb-6 mt-14">
                 <img src="./assets/banner.png" alt="">
-             </div>
-             <!-- bottom part  -->
-              <div class="flex flex-col items-center space-y-7 lg:px-10">
-                <h1 class="font-black text-3xl lg:text-6xl text-center">A barn house of this design has a striking appearance</h1>
-                <p class="font-medium text-textdark text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-                <button class="btn w-full px-32 lg:px-5 md:w-auto hover:bg-accent text-xl font-bold bg-accentlight rounded-full flex flex-col">View Details<i class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-accent text-black px-2 py-1 rounded-full"
-                    style="--fa-rotate-angle: -45deg;"></i></button>
-              </div>
             </div>
+            <!-- bottom part  -->
+            <div class="flex flex-col items-center space-y-7 lg:px-10">
+                <h1 class="font-black text-3xl lg:text-6xl text-center">A barn house of this design has a striking
+                    appearance</h1>
+                <p class="font-medium text-textdark text-center">The barn house captivates with its blend of rustic
+                    charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large
+                    windows that flood the space with natural light.</p>
+                <button
+                    class="btn w-full px-32 lg:px-5 md:w-auto hover:bg-accent text-xl font-bold bg-accentlight rounded-full flex flex-col">View
+                    Details<i
+                        class=" fa-solid fa-arrow-right fa-rotate-by text-2xl font-extrabold bg-accent text-black px-2 py-1 rounded-full"
+                        style="--fa-rotate-angle: -45deg;"></i></button>
+            </div>
+        </div>
     </header>
-
+    <!-- main section  -->
+    <main class=" bg-gray-100 px-5  lg:px-5">
+        <!-- about section  -->
+        <section class="container mx-auto py-0 md:py-20 flex items-bottom justify-between flex-col md:flex-row gap-5">
+            <!-- left side  -->
+            <div class="lg:w-1/2 space-y-8 pt-5 relative md:block flex flex-col justify-center items-center">
+                <img class="absolute top-0 -left-10 hidden lg:block" src="./assets/Vector.png" alt="">
+                <button class="btn rounded-full bg-white hover:bg-accentlight"><i
+                        class="fa-solid fa-arrow-right pr-2"></i>About Us</button>
+                    <!-- texts  -->
+                     <div class="text-center lg:text-left lg">
+                        <h1 class="text-3xl md:text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
+                        <p class="font-medium leading-7 text-textlight pt-4">The barn house captivates with its blend of rustic charm and
+                            modern  sophistication, featuring weathered wood, sleek metal accents.</p>
+                     </div>
+                    <!-- cards -->
+                    <div class="flex items-center bg-white rounded-xl px-5 py-5 space-x-5">
+                        <!-- left side  -->
+                         <img src="./assets/commercial.png" alt="">
+                         <!-- right side  -->
+                          <div class="">
+                            <h1 class="text-xl font-extrabold">Commercial</h1>
+                            <p class="text-textlight font-medium">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                          </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-xl px-5 py-5 space-x-5">
+                        <!-- left side  -->
+                         <img src="./assets/residential.png" alt="">
+                         <!-- right side  -->
+                          <div class="">
+                            <h1 class="text-xl font-extrabold">Residential</h1>
+                            <p class="text-textlight font-medium">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                          </div>
+                    </div>
+            </div>
+            <!-- right side  -->
+             <img class=" md:pt-5 max-h-60 lg:max-h-full object-cover md:object-none  rounded-2xl" src="./assets/Rectangle.png" alt="">
+        </section>
+    </main>
 </body>
 
 </html>
