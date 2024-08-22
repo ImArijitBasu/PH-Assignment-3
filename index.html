@@ -280,7 +280,7 @@
                 <input type="text" placeholder="Last Name*" required class="input input-bordered w-full rounded-full border-none col-span-2 md:col-span-1" />
                 <input type="text" placeholder="Phone Number*" required class="input input-bordered w-full rounded-full border-none col-span-2 md:col-span-1" />
                 <input type="text" placeholder="Email*" required class="input input-bordered w-full rounded-full border-none col-span-2 md:col-span-1" />
-                <textarea class="textarea textarea-bordered col-span-2 rounded-3xl border-none h-40" placeholder="Bio"></textarea>
+                <textarea class="textarea textarea-bordered col-span-2 rounded-3xl border-none h-40" style="resize: none;" placeholder="Bio"></textarea>
                 <button class="btn rounded-full bg-accent hover:bg-accentlight text-lg font-bold col-span-2">Send Mail<i
                     class=" fa-solid fa-arrow-right fa-rotate-by  font-extrabold bg-accent text-accent bg-black text-sm px-2 py-1 rounded-full"
                     style="--fa-rotate-angle: -45deg;"></i></button>
@@ -289,6 +289,25 @@
          </section>
 
     </main>
+    <footer class="bg-black text-white">
+        <div class="container mx-auto py-20 flex items-center flex-col">
+            <div class="flex items-center gap-2 justify-center">
+                <i class="fa-solid fa-arrow-right fa-rotate-by pr-2 bg-accent px-3 py-2 rounded-full text-black" style="--fa-rotate-angle:-45deg"></i>
+                <h1 class="text-3xl font-bold">Rinterio</h1>
+            </div>
+            <p class="pt-5 text-center text-textlight font-bold md:w-5/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <ul class="pt-12 flex flex-col md:flex-row gap-5 md:gap-28 text-center">
+                <li class="hover:text-accent cursor-context-menu">Home</li>
+                <li class="hover:text-accent cursor-context-menu">Services</li>
+                <li class="hover:text-accent cursor-context-menu">Portfolio</li>
+                <li class="hover:text-accent cursor-context-menu">Blogs</li>
+                <li class="hover:text-accent cursor-context-menu">Contact Us</li>
+            </ul>
+            <button class="mt-12 btn rounded-full bg-accent hover:bg-black hover:text-white text-lg font-bold col-span-2 border-none">Book Consult<i
+                class=" fa-solid fa-arrow-right fa-rotate-by  font-extrabold bg-accent text-accent bg-black text-sm px-2 py-1 rounded-full"
+                style="--fa-rotate-angle: -45deg;"></i></button>
+        </div>
+    </footer>
 </body>
 
 </html>
