@@ -40,7 +40,7 @@
 
 <body class="font-manrope ">
     <!-- header section  -->
-    <header class="container mx-auto">
+    <header class="container mx-auto lg:h-screen">
         <!-- nav section  -->
         <nav class="pt-5 ">
             <div class="navbar bg-gradient-to-t from-[rgb(255,255,255)] to-[rgba(255,255,255,0.14)]">
@@ -209,6 +209,60 @@
             </div>
         </section>
 
+        <!-- extra section / our services -->
+        <section class="container mx-auto flex flex-col my-20">
+            <!-- top part -->
+            <div class=" text-center space-y-6 mb-10 md:mb-16">
+                <h1 class="uppercase text-2xl font-extrabold text-white italic  bg-gradient-to-r from-transparent via-accent to-transparent tracking-[1rem] md:tracking-[3rem] hover:bg-gradient-to-r hover:from-accent hover:via-transparent hover:to-accent hover:text-black hover:transition-all hover:duration-700">Services</h1>
+                <h1 class="text-5xl font-extrabold">Our Services</h1>
+            </div>
+            <!-- bottom part  -->
+             <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 rounded-3xl shadow-2xl shadow-accentlight">
+                <!-- card  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/1.svg" alt="">
+                    <h1 class="font-bold text-2xl">Pre-construction Services</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <!-- two  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/2.svg" alt="">
+                    <h1 class="font-bold text-2xl">General Construction</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <!-- three  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/3.svg" alt="">
+                    <h1 class="font-bold text-2xl">Expert Engineer</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <!-- four  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/4.svg" alt="">
+                    <h1 class="font-bold text-2xl">Design Build</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <!-- five  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/5.svg" alt="">
+                    <h1 class="font-bold text-2xl">Modeling</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <!-- six  -->
+                 <div class="border border-x-transparent border-t-red-500 border-b-accent space-y-5  grayscale-0 md:grayscale hover:grayscale-0 hover:transition-all hover:ease-in-out hover:delay-150 hover:transform-gpu rounded-3xl p-10">
+                    <img src="./extra/6.svg" alt="">
+                    <h1 class="font-bold text-2xl">Industrial</h1>
+                    <p class="text-textlight font-medium ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <button class="btn hover:bg-transparent border-none hover:shadow-inner rounded-3xl text-red-500 font-medium text-xl">Learn more <i class="pl-1 fa-solid fa-arrow-right"></i></button>
+                 </div>
+             </div>
+        </section>
+
         <!-- portfolio section  -->
         <section class="w-full mx-auto bg-white rounded-[80px]">
             <div class="container mx-auto bg-gray-100 xl:bg-white my-10 py-24">
@@ -217,7 +271,8 @@
                     <button class="btn bg-white rounded-full hover:bg-accentlight"><i
                             class="fa-solid fa-arrow-right fa-lg"></i>Explore our Latest works</button>
                     <h1 class="capitalize text-4xl lg:text-5xl font-extrabold">Our Latest Portfolio</h1>
-                    <p class="font-medium text-textlight leading-6">The barn house captivates with its blend of rustic charm
+                    <p class="font-medium text-textlight leading-6">The barn house captivates with its blend of rustic
+                        charm
                         and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
                 </div>
                 <!-- grid container  -->
@@ -309,8 +364,9 @@
                         class="input input-bordered w-full rounded-full border-none col-span-2 md:col-span-1" />
                     <textarea class="textarea textarea-bordered col-span-2 rounded-3xl border-none h-40"
                         style="resize: none;" placeholder="Write your message here"></textarea>
-                    <button class="btn rounded-full bg-accent hover:bg-accentlight text-lg font-bold col-span-2"><a href="mailto:arijitbasubd@gmail.com">Send
-                        Mail</a><i
+                    <button class="btn rounded-full bg-accent hover:bg-accentlight text-lg font-bold col-span-2"><a
+                            href="mailto:arijitbasubd@gmail.com">Send
+                            Mail</a><i
                             class=" fa-solid fa-arrow-right fa-rotate-by  font-extrabold bg-accent text-accent bg-black text-sm px-2 py-1 rounded-full"
                             style="--fa-rotate-angle: -45deg;"></i></button>
                 </div>
